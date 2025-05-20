@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../styles/professores.css">
   <link rel="stylesheet" href="../styles/autores.css">
   <link rel="stylesheet" href="../styles/horarios.css">
+  <link rel="stylesheet" href="../styles/perfil.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,9 +46,9 @@
         <img id="profile-icon" src="../icons/person_33dp_000000_FILL0_wght400_GRAD0_opsz40.png" alt="Perfil">
         <div id="profile-popup" class="popup hidden">
           <ul>
-            <a href="#" class="popup-link">Perfil</a>
-            <a href="#" class="popup-link">Definições</a>
-            <a href="#" class="popup-link">Sair</a>
+            <a href="../html/perfil.html" class="popup-link">Perfil</a>
+            <a href="../html/definicoes.html" class="popup-link">Definições</a>
+            <a href="../html/index.html" class="popup-link">Sair</a>
           </ul>
         </div>
       </div>
@@ -57,28 +58,122 @@
     </div>
   </header>
 
-  <nav id="sidebar" class="sidebar">
-    <button id="close-sidebar" class="close-btn">&#10007;</button>
-    <ul class="sidebar-links">
-      <li class="has-submenu">
-        <button class="submenu-toggle">Cursos ▾</button>
-        <ul class="submenu hidden">
-          <li><a href="../html/curso-dw.html">Desenvolvimento Web</a></li>
-          <li><a href="../html/curso-dg.html">Design Gráfico</a></li>
-          <li><a href="../html/curso-ia.html">Inteligência Artificial</a></li>
-          <li><a href="../html/curso-java.html">Programação em Java</a></li>
-          <li><a href="../html/curso-phyton.html">Programação em Phyton</a></li>
-          <li><a href="../html/curso-c.html">Programação em C++</a></li>
-          <li><a href="../html/curso-redes.html">Redes e Sistemas Informáticos</a></li>
-          <li><a href="../html/curso-bd.html">Base de Dados</a></li>
-          <li><a href="../html/cursos.html">Ver mais...</a></li>
-        </ul>
-      </li>
-      <li><a href="../html/professores.html">Professores</a></li>
-      <li><a href="../html/horarios.html">Horários</a></li>
-      <li><a href="../html/autores.html">Autores</a></li>
-      <li><a href="../html/contactos.html">Contactos</a></li>
-    </ul>
-</nav>
+    <nav id="sidebar" class="sidebar">
+      <button id="close-sidebar" class="close-btn">&#10007;</button>
+      <ul class="sidebar-links">
+        <li class="has-submenu">
+          <button class="submenu-toggle">Cursos ▾</button>
+          <ul class="submenu hidden">
+            <li><a href="../html/curso-dw.html">Desenvolvimento Web</a></li>
+            <li><a href="../html/curso-dg.html">Design Gráfico</a></li>
+            <li><a href="../html/curso-ia.html">Inteligência Artificial</a></li>
+            <li><a href="../html/curso-java.html">Programação em Java</a></li>
+            <li><a href="../html/curso-phyton.html">Programação em Phyton</a></li>
+            <li><a href="../html/curso-c.html">Programação em C++</a></li>
+            <li><a href="../html/curso-redes.html">Redes e Sistemas Informáticos</a></li>
+            <li><a href="../html/curso-bd.html">Base de Dados</a></li>
+            <li><a href="../html/cursos.html">Ver mais...</a></li>
+          </ul>
+        </li>
+        <li><a href="../html/professores.html">Professores</a></li>
+        <li><a href="../html/horarios.html">Horários</a></li>
+        <li><a href="../html/autores.html">Autores</a></li>
+        <li><a href="../html/contactos.html">Contactos</a></li>
+      </ul>
+  </nav>
+
+
+  <main>
+     <h1 class="grid-title">O meu perfil</h1>
+    <a href="../html/informacoes-pessoais.html">
+      <section class = "perfil-info-section">
+        <div class = "perfil-info-title">
+          Informações Pessoais
+        </div>
+        <div class = "perfil-info-description">
+          Consulta e edita os teus dados como nome, idade, localidade, número de aluno e turma.
+        </div>
+      </section>
+    </a>
+
+    <a href="../html/privacidade-seguranca.html">
+      <section class = "perfil-info-section">
+        <div class = "perfil-info-title">Privacidade e Segurança</div>
+        <div class = "perfil-info-description">
+          Gere as tuas permissões, palavras-passe e opções de segurança para proteger a tua conta.
+        </div>
+      </section>
+    </a>
+
+    <a href="../html/definicoes.html">
+      <section class = "perfil-info-section">
+        <div class = "perfil-info-title">Definições</div>
+        <div class = "perfil-info-description">
+          Personaliza a tua experiência com preferências de idioma, tema e notificações.
+        </div>
+      </section>
+    </a>
+
+    <a href="../html/termos-condicoes.html">
+      <section class = "perfil-info-section">
+        <div class = "perfil-info-title">Termos e Condições</div>
+        <div class = "perfil-info-description">
+          Lê as regras de utilização da plataforma e conhece os teus direitos e deveres.
+        </div>
+      </section>
+    </a>
+
+    <a href="../html/index.html">
+      <section class = "perfil-info-section">
+        <div class = "perfil-info-title">Voltar ao Menu Principal</div>
+        <div class = "perfil-info-description">
+          Regressa à página inicial para continuar a explorar os cursos e funcionalidades.
+        </div>
+      </section>
+    </a>
+
+
+    <section class="audio-player">
+      <h2>Música de Fundo para Estudares Relaxado!</h2>
+      <audio controls>
+        <source src="../audio/LAKEY INSPIRED - Chill Day.mp3" type="audio/mpeg">
+        O teu navegador não suporta áudio HTML5.
+      </audio>
+    </section>
+  </main>
+  <footer class="site-footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>SkillForge</h3>
+          <p>Aprende ao teu ritmo, com apoio especializado e cursos certificados.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Cursos</h4>
+          <ul>
+            <li><a href="../html/curso-java.html">Programação em Java</a></li>
+            <li><a href="../html/curso-dg.html">Design Gráfico</a></li>
+            <li><a href="../html/curso-bd.html">Base de Dados</a></li>
+            <li><a href="../html/cursos.html">Ver mais...</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Redes Sociais</h4>
+          <div class = "footer-img-section"> 
+            <a href="https://www.facebook.com/seuusuario" target="_blank"><i class="fab fa-facebook-f"></i></a><br>
+            <a href="https://www.instagram.com/seuusuario" target="_blank"><i class="fab fa-instagram"></i></a><br>
+            <a href="https://www.linkedin.com/in/seuusuario" target="_blank"><i class="fab fa-linkedin-in"></i></a><br>
+            <a href="https://www.youtube.com/RicFazeres" target="_blank"><i class="fab fa-youtube"></i></a><br>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Contacto</h4>
+          <p>Email: contacto@skillforge.pt</p>
+          <p>Telefone: +351 912 345 678</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2025 SkillForge. Todos os direitos reservados.
+      </div>
+    </footer>
 </body>
 </html>

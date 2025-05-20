@@ -1,4 +1,4 @@
-.curso-info-container {
+.curso-info-section {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -11,9 +11,15 @@
   padding: 20px;
   gap: 30px;
   position: relative;
+  transition: transform 0.3s;
+  cursor: pointer;
 }
 
-.curso-info-container img {
+.curso-info-section:hover{
+  transform: scale(1.02);
+}
+
+.curso-info-section img {
   width: 280px;
   height: auto;
   border-radius: 2px;

@@ -1,0 +1,70 @@
+
+
+.perfil-info-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color:#f9f8f5;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 30px auto;
+  padding: 30px;
+  gap: 30px;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+
+.perfil-info-section:hover {
+  background-color: #f1f1f1;
+  transition: 0.3s;
+  transform: scale(1.02);
+}
+
+.perfil-info-title {
+  font-weight: 600;
+  font-size: 20px;
+  min-width: 200px;
+  color: #333;
+}
+
+.perfil-info-description {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.4;
+}
+
+.perfil-info-description{
+  padding-left: 0px;
+}
+
+
+.audio-player {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #ffe259, #ffa751);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.audio-player h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #2d2d2d;
+}
+
+.audio-player audio {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  outline: none;
+}
+

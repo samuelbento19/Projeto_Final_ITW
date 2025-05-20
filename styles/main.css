@@ -45,7 +45,6 @@
 }
 
 
-
 .grid-title{
   display: flex;
   align-items: center;
@@ -244,20 +243,21 @@
   cursor: pointer;
 }
 
-form label {
+.index-form label {
   display: block;
   margin-top: 15px;
 }
 
-form input, form select {
+.index-form input, .index-form select {
   width: 100%;
   padding: 10px;
   margin-top: 5px;
   border-radius: 5px;
   border: 1px solid #ccc;
+  font-family: 'Montserrat', sans-serif;
 }
 
-form button {
+.index-form button {
   margin-top: 20px;
   width: 100%;
   padding: 10px;
@@ -266,6 +266,7 @@ form button {
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .faq-section {

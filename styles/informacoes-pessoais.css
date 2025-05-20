@@ -1,0 +1,88 @@
+
+.info-pessoais-section {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color:#f9f8f5;
+}
+
+
+.perfil-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.form-group input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: border-color 0.3s ease;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-group input:focus {
+  border-color: #ffa751;
+  outline: none;
+}
+
+.form-submit-btn {
+  align-self: flex-start;
+  padding: 12px 24px;
+  background-color: #f7c31b;
+  color: #000000;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Montserrat', sans-serif; 
+}
+
+.form-submit-btn:hover {
+  background-color: #131313;
+  color: #f7c31b;
+}
+
+.back-perfil-button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-perfil-button{
+  align-self: flex-start;
+  height: 70px;
+  width: 200px;
+  padding: 12px 24px;
+  background-color: #f7c31b;
+  color: #000000;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Montserrat', sans-serif; 
+  margin-bottom: 50px;
+}
+
+.back-perfil-button:hover{
+   background-color: #131313;
+   color: #f7c31b;
+}

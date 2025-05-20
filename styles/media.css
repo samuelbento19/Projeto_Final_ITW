@@ -10,7 +10,7 @@
   }
 
   .search-button {
-    height: 35px;
+    height: 39px;
   }
 
   .left-section img {
@@ -22,7 +22,7 @@
   }
 
   .menu-icon {
-    height: 28px;
+    height: 33px;
   }
 
   /* Index */
@@ -135,7 +135,7 @@
   }
 
   .search-button {
-    height: 32px;
+    height: 39px;
   }
 
   .middle-section {
@@ -156,7 +156,7 @@
   }
 
   .menu-icon {
-    height: 26px;
+    height: 33px;
   }
 
   .profile-container img {
@@ -205,7 +205,7 @@
 
   /* Cursos */
   .main {
-    padding: 20px 10px;
+    padding: 70px 10px;
     gap: 20px;
   }
 
