@@ -1,0 +1,63 @@
+.curso-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color:rgb(249, 248, 245);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 30px auto;
+  padding: 20px;
+  gap: 30px;
+  position: relative;
+}
+
+.curso-info-container img {
+  width: 280px;
+  height: auto;
+  border-radius: 2px;
+}
+
+.curso-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.curso-info h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.curso-info p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.curso-info-resume {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.indicador {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  background-color: #fff;
+  padding: 6px 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  gap: 8px;
+}
+
+.indicador img {
+  width: 20px;
+  height: 20px;
+}
+

@@ -1,0 +1,53 @@
+.main-horario {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.horarios-info,
+.plano-estudo,
+.suporte {
+margin-bottom: 32px;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+.horarios-info p,
+.plano-estudo p,
+.suporte p {
+font-size: 16px;
+line-height: 24px;
+}
+
+.plano-estudo h2,
+.suporte h2 {
+font-size: 22px;
+margin-bottom: 12px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 12px;
+}
+
+th,
+td {
+border: 1px solid #ccc;
+padding: 10px;
+text-align: left;
+font-size: 15px;
+}
+
+thead {
+background-color: #f2f2f2;
+}
+
+ul {
+padding-left: 20px;
+}
+
+li {
+margin-bottom: 8px;
+font-size: 15px;
+}
