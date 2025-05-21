@@ -122,6 +122,12 @@
   li {
   font-size: 14px;
   }
+
+  /*Footer*/
+
+  footer {
+    width: 100%;;
+  }
 }
 
 
@@ -229,7 +235,7 @@
     text-align: center;
   }
 
-  .curso-info-container {
+  .curso-info-section {
     display: flex;
     flex-direction: column;
   }
@@ -291,5 +297,29 @@
 
   li {
   font-size: 13px;
+  }
+
+  /*Footer*/
+
+  footer {
+    width: 100%;;
+  }
+
+  /*Perfil*/
+
+    .perfil-info-section {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .perfil-info-title {
+    font-size: 18px;
+    min-width: auto;
+  }
+
+  .perfil-info-description {
+    font-size: 15px;
   }
 }

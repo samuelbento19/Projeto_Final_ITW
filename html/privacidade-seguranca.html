@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <link rel="stylesheet" href="../styles/header.css">
   <link rel="stylesheet" href="../styles/general.css">
   <link rel="stylesheet" href="../styles/main.css">
@@ -11,6 +12,11 @@
   <link rel="stylesheet" href="../styles/contactos.css">
   <link rel="stylesheet" href="../styles/media.css">
   <link rel="stylesheet" href="../styles/professores.css">
+  <link rel="stylesheet" href="../styles/autores.css">
+  <link rel="stylesheet" href="../styles/horarios.css">
+  <link rel="stylesheet" href="../styles/perfil.css">
+  <link rel="stylesheet" href="../styles/privacidade-seguranca.css">
+  <link rel="stylesheet" href="../styles/informacoes-pessoais.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,10 +31,10 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Professores</title>
+  <title>Privacidade e Segurança</title>
 </head>
 <body>
- <header> 
+  <header> 
     <div class="left-section"> 
       <a href="index.html"><img src="../icons/Skill Forge logo ret.png" alt="Logo Skill Forge"></a>
     </div>
@@ -80,101 +86,48 @@
       <li><a href="../html/politica-privacidade.html">Política de Privacidade</a></li>
     </ul>
   </nav>
+  <main>
+    <h1 class="grid-title">Privacidade e Segurança</h1>
 
-  <main class = "prof-main">
-    <section class="cover">
-      <img src="../images/capa_professores.png" alt="Imagem de professores">
+    <section class="privacidade-info-section">
+      <div class="privacidade-info-title">Permissões da Conta</div>
+      <div class="privacidade-info-description">
+        Controla quem pode interagir contigo e visualizar a tua atividade.
+      </div>
+      <div class="privacidade-info-checklist">
+        <label><input type="checkbox" checked> Mostrar o meu perfil publicamente</label>
+        <label><input type="checkbox"> Permitir mensagens de desconhecidos</label>
+        <label><input type="checkbox" checked> Partilhar progresso dos cursos com amigos</label>
+      </div>
     </section>
 
-     <h1 class="grid-title">Professores</h1>
+    <section class="privacidade-info-section">
+      <div class="privacidade-info-title">Autenticação de Dois Fatores (2FA)</div>
+      <div class="privacidade-info-description">
+        Aumenta a segurança da tua conta com autenticação adicional ao iniciar sessão.
+      </div>
+      <div class="privacidade-info-switch">
+        <label for="2fa">Ativar 2FA</label>
+        <input type="checkbox" id="2fa">
+      </div>
+    </section>
 
-     <section class="prof-info-container">
-      <div class = "prof-info-img">
-        <img src="../images/prof_rui.png" alt="professor rui">
+    <section class="privacidade-info-section">
+      <div class="privacidade-info-title">Alterar Palavra-Passe</div>
+      <div class="privacidade-info-description">
+        Define uma nova palavra-passe segura para proteger a tua conta.
       </div>
-      <div class = "prof-info-description">
-        <h2>Rui Mendes</h2>
-        <span><b>Área:</b> Desenvolvimento Web</span>
-        <p>Entusiasmado por construir o futuro da internet, o professor Rui guia os alunos na criação de websites dinâmicos e interativos. Partilha as últimas tendências e tecnologias do desenvolvimento web, desde o frontend ao backend.</p>
-      </div>
-     </section>
+      <form class="privacidade-info-formulario" onsubmit="event.preventDefault(); alert('Palavra-passe alterada!');">
+        <input type="password" placeholder="Nova palavra-passe" required />
+        <button type="submit">Guardar</button>
+      </form>
+    </section>
 
-     <section class="prof-info-container">
-      <div class = "prof-info-img">
-        <img src="../images/prof_ines.png" alt="professor ines">
-      </div>
-      <div class = "prof-info-description">
-        <h2>Inês Ferreira</h2>
-        <span><b>Área:</b> Design Gráfico</span>
-        <p>Com um olhar criativo e atento aos detalhes, a professora Inês ensina os princípios do design que comunicam e inspiram. Explora ferramentas e técnicas para dar vida a ideias através de imagens e layouts impactantes.</p>
-      </div>
-     </section>
-
-     <section class="prof-info-container">
-      <div class = "prof-info-img">
-        <img src="../images/prof_pedro.png" alt="professor rui">
-      </div>
-      <div class = "prof-info-description">
-        <h2>Pedro Alves</h2>
-        <span><b>Área:</b> Inteligência Artificial</span>
-        <p> Fascinado pelo potencial da IA, o professor Pedro desmistifica os conceitos e as aplicações desta área em constante evolução. Prepara os alunos para compreenderem e criarem soluções inteligentes para o futuro.</p>
-      </div>
-     </section>
-
-     <section class="prof-info-container">
-      <div class = "prof-info-img">
-        <img src="../images/prof_sara.png" alt="professor rui">
-      </div>
-      <div class = "prof-info-description">
-        <h2>Sara Oliveira</h2>
-        <span><b>Área:</b> Programação em Java</span>
-        <p>A professora Sara é uma defensora da programação estruturada e orientada a objetos em Java. Com uma abordagem prática, ajuda os alunos a construírem aplicações robustas e escaláveis.</p>
-      </div>
-     </section>
-
-     <section class="prof-info-container">
-      <div class = "prof-info-img">
-        <img src="../images/prof_miguel.png" alt="professor rui">
-      </div>
-      <div class = "prof-info-description">
-        <h2>Miguel Santos</h2>
-        <span><b>Área:</b> Programação em Python</span>
-        <p>O professor Miguel adora a versatilidade e o poder do Python para diversas áreas. Com exemplos práticos e projetos desafiadores, incentiva os alunos a explorarem as inúmeras possibilidades desta linguagem.</p>
-      </div>
-     </section>
-
-     <section class="prof-info-container">
-      <div class = "prof-info-img">
-        <img src="../images/prof_claudia.png" alt="professor rui">
-      </div>
-      <div class = "prof-info-description">
-        <h2>Cláudia Pereira</h2>
-        <span><b>Área:</b> Programação em C++</span>
-        <p>A professora Cláudia partilha a sua paixão pela eficiência e o controlo de baixo nível que o C++ oferece. Guia os alunos no desenvolvimento de software de alto desempenho e sistemas complexos.</p>
-      </div>
-     </section>
-
-     <section class="prof-info-container">
-      <div class = "prof-info-img">
-        <img src="../images/prof_andre.png" alt="professor andre">
-      </div>
-      <div class = "prof-info-description">
-        <h2>André Martins</h2>
-        <span><b>Área:</b> Redes e Sistemas Informáticos</span>
-        <p> O professor André desvenda os bastidores da comunicação digital e da infraestrutura informática. Ensina os alunos a projetar, configurar e manter redes seguras e eficientes.</p>
-      </div>
-     </section>
-
-     <section class="prof-info-container">
-      <div class = "prof-info-img">
-        <img src="../images/prof_sofia.png" alt="professor rui">
-      </div>
-      <div class = "prof-info-description">
-        <h2>Sofia Costa</h2>
-        <span><b>Área:</b> Base de Dados</span>
-        <p>A professora Sofia é especialista em organizar e gerir a informação de forma eficiente. Ensina os alunos a modelar, consultar e administrar bases de dados para aplicações de todos os tipos.</p>
-      </div>
-     </section>
+    <a class = "back-perfil-button-container" href="../html/perfil.html">
+      <button class = "back-perfil-button">
+        Voltar ao perfil
+      </button>
+    </a>
   </main>
 
   <footer class="site-footer">
@@ -219,6 +172,5 @@
         &copy; 2025 SkillForge. Todos os direitos reservados.
       </div>
     </footer>
-  
 </body>
 </html>

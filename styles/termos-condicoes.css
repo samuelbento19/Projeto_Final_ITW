@@ -1,0 +1,35 @@
+.termos-info-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f8f5;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 30px auto;
+  padding: 30px;
+  gap: 15px;
+  transition: background-color 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.termos-info-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #333;
+}
+
+.termos-info-description {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.termos-info-description a {
+  color: #ffa751;
+  text-decoration: none;
+}
+
+.termos-info-description a:hover {
+  text-decoration: underline;
+}

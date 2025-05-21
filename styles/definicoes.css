@@ -1,0 +1,52 @@
+.definicoes-info-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f8f5;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 30px auto;
+  padding: 30px;
+  gap: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.definicoes-info-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #333;
+}
+
+.definicoes-info-description {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.4;
+}
+
+.definicoes-info-select select {
+  padding: 10px 15px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
+
+.definicoes-info-select select:focus {
+  border-color: #ffa751;
+  outline: none;
+}
+
+.definicoes-info-checklist label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  color: #444;
+}
+
+.definicoes-info-checklist input[type="checkbox"]{
+  cursor: pointer;
+}

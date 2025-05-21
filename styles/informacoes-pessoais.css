@@ -40,7 +40,7 @@
   outline: none;
 }
 
-.form-submit-btn {
+.form-submit-button {
   align-self: flex-start;
   padding: 12px 24px;
   background-color: #f7c31b;
@@ -54,7 +54,7 @@
   font-family: 'Montserrat', sans-serif; 
 }
 
-.form-submit-btn:hover {
+.form-submit-button:hover {
   background-color: #131313;
   color: #f7c31b;
 }

@@ -7,12 +7,13 @@
 }
 
 .card {
-  background: #fff8f2;
-  border-radius: 12px;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+  background: #f9f8f5;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
   padding: 30px;
   width: 80%;
   max-width: 1000px;
+
 }
 
 .card h2 {
@@ -26,7 +27,7 @@
 }
 
 .conteudo-curso ul {
-  list-style-type: "✔️ ";
+  list-style-type: "✔️";
   padding-left: 20px;
 }
 
@@ -39,7 +40,7 @@
 }
 
 .info-box {
-  background-color: #ffe5c4;
+  background-color: #e7e7e7;
   padding: 15px 25px;
   border-radius: 10px;
   font-weight: 600;

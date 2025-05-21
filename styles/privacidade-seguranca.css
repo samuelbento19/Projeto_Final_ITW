@@ -1,0 +1,95 @@
+.privacidade-info-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f8f5;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 30px auto;
+  padding: 30px;
+  gap: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.privacidade-info-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #333;
+}
+
+.privacidade-info-description {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.4;
+}
+
+.privacidade-info-checklist label {
+  display: block;
+  font-size: 15px;
+  color: #444;
+  margin-top: 8px;
+}
+
+.privacidade-info-checklist input[type="checkbox"] {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.privacidade-info-switch {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+  color: #444;
+}
+
+.privacidade-info-switch input[type="checkbox"]{
+  cursor: pointer;
+}
+
+.privacidade-info-formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+}
+
+
+.privacidade-info-formulario input[type="password"] {
+  padding: 10px 15px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.privacidade-info-formulario input[type="password"] {
+  padding: 10px 15px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.privacidade-info-formulario input[type="password"]:focus {
+  border-color: #ffa751;
+  outline: none;
+}
+
+.privacidade-info-formulario button {
+  padding: 10px 15px;
+  font-size: 15px;
+  background-color: #f7c31b;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.privacidade-info-formulario button:hover {
+  background-color: #000000;
+  color: #f7c31b;
+}

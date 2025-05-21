@@ -73,6 +73,8 @@
   box-sizing: border-box;
   border-radius: 8px;
   transition: transform 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px
 }
 
 .grid-container:hover {
@@ -202,7 +204,7 @@
 
 .signup-button:hover {
   background-color: black;
-  color: rgb(247, 195, 27);
+  color: #f7c31b;
 }
 
 .signup-button:active {
@@ -218,6 +220,8 @@
   top: 0; left: 0; right: 0; bottom: 0;
   background-color: rgba(0,0,0,0.6);
   z-index: 200;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px
 }
 
 .hidden {
