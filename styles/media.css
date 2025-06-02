@@ -128,6 +128,20 @@
   footer {
     width: 100%;;
   }
+
+  /*politica de privacidade*/
+  .termos-privacidade-intro,
+  .termos-privacidade-section p {
+    font-size: 15px;
+  }
+
+  .termos-privacidade-subtitle {
+    font-size: 22px;
+  }
+
+  .termos-privacidade-container {
+    padding: 20px;
+  }
 }
 
 
@@ -321,5 +335,24 @@
 
   .perfil-info-description {
     font-size: 15px;
+  }
+
+  /*politica de privacidade*/
+  .termos-privacidade-intro,
+  .termos-privacidade-section p {
+    font-size: 14px;
+  }
+
+  .termos-privacidade-subtitle {
+    font-size: 20px;
+  }
+
+  .termos-privacidade-footer {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .termos-privacidade-container {
+    padding: 15px;
   }
 }

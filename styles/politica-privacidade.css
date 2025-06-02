@@ -23,32 +23,32 @@
 }
 
 .grid-title {
-  font-size: 2.4rem;
+  font-size: 38px;
   margin-bottom: 30px;
   font-weight: 600;
 }
 
 .termos-privacidade-intro {
-  font-size: 1.1rem;
+  font-size: 18px;
   margin-bottom: 30px;
   line-height: 1.6;
 }
 
 .termos-privacidade-subtitle {
-  font-size: 1.5rem;
+  font-size: 26px;
   margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 600;
 }
 
 .termos-privacidade-section p {
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 1.6;
   margin-bottom: 20px;
 }
 
 .termos-privacidade-footer {
-  font-size: 0.9rem;
+  font-size: 15px;
   color: #777;
   margin-top: 40px;
   text-align: right;

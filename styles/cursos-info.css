@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  padding: 40px 20px;
+  
 }
 
 .card {
@@ -63,3 +63,29 @@
   width: 100%;
   height: 100%;
 }
+
+.back-cursos-button{
+  width: 300px;
+  height: 70px;
+  font-size: 24px;
+  background-color: #f7c31b;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.back-cursos-button:hover{
+   color: #f7c31b;
+  background-color: #000;
+}
+
+.back-cursos-button:active {
+  transform: scale(0.95);
+}
+

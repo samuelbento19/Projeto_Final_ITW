@@ -14,7 +14,7 @@
 .definicoes-info-title {
   font-weight: 600;
   font-size: 20px;
-  color: #333;
+  color: #333333;
 }
 
 .definicoes-info-description {
@@ -26,9 +26,9 @@
 .definicoes-info-select select {
   padding: 10px 15px;
   font-size: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   border-radius: 6px;
-  background-color: #fff;
+  background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;
 }
@@ -44,7 +44,7 @@
   align-items: center;
   gap: 10px;
   font-size: 15px;
-  color: #444;
+  color: #444444;
 }
 
 .definicoes-info-checklist input[type="checkbox"]{
