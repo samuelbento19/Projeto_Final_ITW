@@ -1,0 +1,64 @@
+main {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 30px;
+}
+
+.move-button {
+  width: 200px;
+  height: 70px;
+  font-size: 24px;
+  background-color: #f7c31b;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.move-button:hover {
+  color: #f7c31b;
+  background-color: #000;
+}
+
+.js-result, .js-moves, .js-score {
+  font-size: 1.3rem;
+  margin-top: 20px;
+  color: #333;
+}
+
+.reset-score-button {
+  width: 200px;
+  height: 70px;
+  background-color: #ff4d4d;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 30px;
+}
+
+.reset-score-button:hover {
+  background-color: #cc0000;
+}
+
+@media (max-width: 600px) {
+  .move-button {
+    width: 80%;
+    font-size: 1rem;
+    padding: 12px 20px;
+  }
+
+  .grid-title {
+    font-size: 2rem;
+  }
+}

@@ -108,6 +108,35 @@ header {
   cursor: pointer;
 }
 
+.cart-icon{
+  position: relative;
+  height: 32px;
+  border: none;
+  background-color: rgb(249, 248, 245);
+  cursor: pointer;
+}
+
+.cart-icon img{
+  height: 31px;
+}
+
+.cart-counter {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  font-size: 0.75rem;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
 .profile-container {
   position: relative;
   display: flex;
@@ -161,3 +190,26 @@ header {
   color: black;
 }
 
+.cart-popup {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 1em;
+  border-radius: 10px;
+  z-index: 1000;
+  width: 280px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.cart-popup.hidden {
+  display: none;
+}
+
+.cart-items li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+}

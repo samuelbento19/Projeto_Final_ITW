@@ -152,6 +152,7 @@
   justify-content: center;
   align-items: center;
   padding-top: 30px;
+  gap: 30px;
 }
 
 .see-more{
@@ -328,5 +329,4 @@
 .faq-question.active, .arrow {
   transform: rotate(45deg);
 }
-
 

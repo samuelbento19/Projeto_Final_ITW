@@ -38,3 +38,44 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+
+
+
+function renderHeader() {
+  html = ` 
+    <div class="left-section"> 
+      <a href="index.html"><img src="../icons/Skill Forge logo ret.png" alt="Logo Skill Forge"></a>
+    </div>
+    
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Pesquise...">
+      <button class="search-button"><img src="../icons/search_33dp_000000_FILL0_wght400_GRAD0_opsz40.png" alt="Pesquisar"></button>
+    </div>
+
+    <div class="right-section"> 
+      <div class="profile-container">
+        <img id="profile-icon" src="../icons/person_33dp_000000_FILL0_wght400_GRAD0_opsz40.png" alt="Perfil">
+        <div id="profile-popup" class="popup hidden">
+          <ul>
+            <a href="../html/perfil.html" class="popup-link">Perfil</a>
+            <a href="../html/definicoes.html" class="popup-link">Definições</a>
+            <a href="../html/index.html" class="popup-link">Sair</a>
+          </ul>
+        </div>
+      </div>
+      <a href="../html/checkout.html">
+        <button class="cart-icon">
+          <img src="../icons/shopping_cart_33dp_000000_FILL0_wght400_GRAD0_opsz40.png" alt="Carrinho">
+          <div class = "cart-counter js-cart-qty">0</div>
+        </button>
+      </a>
+      <button class="menu-icon">
+        <img src="../icons/menu_33dp_000000_FILL0_wght400_GRAD0_opsz40.png" alt="Menu">
+      </button>
+    </div>`;
+
+  document.querySelector('.header').innerHTML = html;
+}
+
+renderHeader();
+

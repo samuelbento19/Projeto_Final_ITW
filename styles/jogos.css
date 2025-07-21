@@ -1,0 +1,49 @@
+main {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.jogo-item {
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.jogo-item h2 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  color: #222;
+}
+
+.jogo-item p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.jogo-link {
+  display: inline-block;
+  background-color: #f7c31b;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.jogo-link:hover {
+  background-color: #000000;
+  color: #f7c31b;
+}
+
+.jogo-link.disabled {
+  background-color: #cccccc;
+  pointer-events: none;
+  cursor: not-allowed;
+}

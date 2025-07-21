@@ -1,0 +1,98 @@
+.to-do-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(240, 240, 240);
+  padding: 40px 20px;
+  border-radius: 12px;
+  margin: 40px auto;
+  max-width: 900px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  gap: 30px;
+}
+
+.to-do-input-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.to-do-input-section input {
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  transition: border-color 0.3s;
+  min-width: 180px;
+}
+
+.to-do-input-section input:focus {
+  outline: none;
+  border-color: #f7c31b;
+  box-shadow: 0 0 5px #f7c31b;
+}
+
+.add-button-list {
+  height: 43px;
+  background-color: #f7c31b;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.add-button-list:hover {
+  background-color: #000000;
+  color: #f7c31b;
+}
+
+.render-to-do-input-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 700px;
+  gap: 15px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.todo-item:hover {
+  transform: scale(1.01);
+}
+
+.todo-item span {
+  color: #333;
+}
+
+.todo-item button {
+  background-color: #ff4d4d;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.todo-item button:hover {
+  background-color: #cc0000;
+}

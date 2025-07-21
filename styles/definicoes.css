@@ -50,3 +50,19 @@
 .definicoes-info-checklist input[type="checkbox"]{
   cursor: pointer;
 }
+
+
+:root {
+  --bg-color: #fff;
+  --text-color: #222;
+}
+
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #eee;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}

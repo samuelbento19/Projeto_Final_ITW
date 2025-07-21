@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-
+  <link rel="icon" type="image/png" href="../icons/favicon_rounded.ico">
   <link rel="stylesheet" href="../styles/header.css">
   <link rel="stylesheet" href="../styles/general.css">
   <link rel="stylesheet" href="../styles/main.css">
@@ -11,24 +10,23 @@
   <link rel="stylesheet" href="../styles/cursos.css">
   <link rel="stylesheet" href="../styles/cursos-info.css">
   <link rel="stylesheet" href="../styles/media.css">
+  <link rel="stylesheet" href="../styles/lista.css">
   <link rel="stylesheet" href="../styles/informacoes-pessoais.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="../scripts/main.js"></script>
-  <script src="../scripts/header.js"></script>
-  <script src="../scripts/sidebar.js"></script>
-
+  
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Desenvolvimento web</title>
+  <title>Lista de Organização</title>
 </head>
-<header class="header"> 
+<body>
+  <header class="header"> 
    
   </header>
 
@@ -58,83 +56,30 @@
     </ul>
   </nav>
 
-  <main class="main">
+  <main>
     <section class="cover">
-      <img src="../images/capa_dw.png" alt="Imagem de capa dw">
+      <img src="../images/pexels-daliladalprat-5689438.jpg" alt="Imagem de capa bd">
     </section>
   
-    <h1 class="grid-title">Desenvolvimento Web</h1>
-  
-    <section class="resumo-curso card">
-      <h2> Sobre o Curso</h2>
-      <p>Aprende a construir websites modernos e responsivos com HTML, CSS, JavaScript e algumas frameworks populares. Ideal para tu que desejas entrar ou crescer na área de desenvolvimento web!</p>
-    </section>
-  
-    <section class="conteudo-curso card">
-      <h2> O que vais aprender?</h2>
-      <ul>
-        <li>HTML5 e estruturação de páginas</li>
-        <li>CSS3 e design responsivo</li>
-        <li>JavaScript para interatividade</li>
-        <li>Introdução a React ou outro framework</li>
-        <li>Publicação de sites na Web</li>
-      </ul>
-    </section>
-  
-    <section class="detalhes-curso card">
-      <h2>Requisitos</h2>
-      <div class="info-grid">
-        <div class="info-box">💻 150 horas</div>
-        <div class="info-box">📄 Certificado incluído</div>
-        <div class="info-box">⚡ Nível: Intermédio</div>
+    <h1 class="grid-title">Lista de Afazeres</h1>
+
+    <section class = "to-do-container">
+      <div class = "to-do-input-section">
+        <input type="text" class = "js-input-name">
+        <input type="date" class = "js-input-date">
+        <input type="time" class = "js-input-time">
+        <button class = "add-button-list">Adicionar</button>
       </div>
-    </section>
-  
-    <section class="galeria-curso card">
-      <h2>Exemplo de Aula (Crédito TalentLMS) </h2>
-      <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/CaOt8-yKkXw?si=1ITqLlQ4kj7B9TXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div class = "render-to-do-input-section">
+
       </div>
     </section>
 
-    <a class = "back-perfil-button-container" href="../html/cursos.html">
-      <button class = "back-cursos-button">
-        Voltar a Cursos
+    <a class = "back-perfil-button-container" href="../html/perfil.html">
+      <button class = "back-perfil-button">
+        Voltar ao perfil
       </button>
     </a>
-
-    <section class="signup-container">
-      <button id="signup-button" class="signup-button">Inscreve-te Aqui!</button>
-
-      <div id="signup-modal" class="modal hidden">
-        <div class="modal-content">
-          <span class="close-btn">&#10007;</span>
-          <h2>Inscreve-te no SkillForge</h2>
-          <form class = "index-form">
-            <label for="name">Nome:</label>
-            <input type="text" id="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" required>
-
-            <label for="course">Curso:</label>
-            <select id="course" required>
-              <option value="">Seleciona um curso</option>
-              <option value="webdev">Desenvolvimento Web</option>
-              <option value="design">Design Gráfico</option>
-              <option value="ai">Inteligência Artificial</option>
-              <option value="pj">Programação em Java</option>
-              <option value="pphy">Programação em Phyton</option>
-              <option value="pc">Programação em C++</option>
-              <option value="rsi">Redes e Sistemas Informáticos</option>
-              <option value="bd">Base de Dados</option>
-            </select>
-
-            <button type="submit">Enviar</button>
-          </form>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="site-footer">
@@ -180,6 +125,12 @@
         &copy; 2025 SkillForge. Todos os direitos reservados.
       </div>
     </footer>
-  
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../scripts/main.js"></script>
+  <script src="../scripts/header.js"></script>
+  <script src ="../scripts/sidebar.js"></script>
+  <script src ="../scripts/lista.js"></script>
+
 </body>
 </html>

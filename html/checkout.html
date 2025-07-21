@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="../icons/favicon_rounded.ico">
+  
+  <link rel="stylesheet" href="../styles/header.css">
+  <link rel="stylesheet" href="../styles/general.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+  <link rel="stylesheet" href="../styles/sidebar.css">
+  <link rel="stylesheet" href="../styles/checkout.css">
+  <link rel="stylesheet" href="../styles/informacoes-pessoais.css">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Checkout - Skill Forge</title>
+</head>
+<body>
+
+  <header class="header">
+    <!-- Mantém o teu header -->
+  </header>
+
+  <nav id="sidebar" class="sidebar">
+    <!-- Mantém o teu sidebar -->
+    <button id="close-sidebar" class="close-btn">&#10007;</button>
+    <ul class="sidebar-links">
+      <li class="has-submenu">
+        <button class="submenu-toggle">Cursos ▾</button>
+        <ul class="submenu hidden">
+          <li><a href="../html/curso-dw.html">Desenvolvimento Web</a></li>
+          <li><a href="../html/curso-dg.html">Design Gráfico</a></li>
+          <li><a href="../html/curso-ia.html">Inteligência Artificial</a></li>
+          <li><a href="../html/curso-java.html">Programação em Java</a></li>
+          <li><a href="../html/curso-phyton.html">Programação em Phyton</a></li>
+          <li><a href="../html/curso-c.html">Programação em C++</a></li>
+          <li><a href="../html/curso-redes.html">Redes e Sistemas Informáticos</a></li>
+          <li><a href="../html/curso-bd.html">Base de Dados</a></li>
+          <li><a href="../html/cursos.html">Ver mais...</a></li>
+        </ul>
+      </li>
+      <li><a href="../html/professores.html">Professores</a></li>
+      <li><a href="../html/horarios.html">Horários</a></li>
+      <li><a href="../html/autores.html">Autores</a></li>
+      <li><a href="../html/contactos.html">Contactos</a></li>
+      <li><a href="../html/termos-condicoes.html">Termos e Condições</a></li>
+      <li><a href="../html/politica-privacidade.html">Política de Privacidade</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Checkout</h1>
+
+    <section id="cart-section">
+      <h2>Resumo do Carrinho</h2>
+      <button id="clear-cart-btn" class="remove-all-button">Remover tudo</button>
+      <table id="cart-table" aria-label="Resumo dos cursos no carrinho">
+        <thead>
+          <tr>
+            <th>Curso</th>
+            <th>Quantidade</th>
+            <th>Preço Unitário (€)</th>
+            <th>Total (€)</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div class="total" id="cart-total">Total: 0,00 €</div>
+    </section>
+
+    <section id="checkout-form">
+      <h2>Informações de Pagamento</h2>
+      <form id="payment-form">
+        <label for="name">Nome Completo</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="card">Número do Cartão</label>
+        <input type="text" id="card" name="card" maxlength="16" inputmode="numeric" required />
+
+        <label for="expiry">Validade (MM/AA)</label>
+        <input type="text" id="expiry" name="expiry" maxlength="5" placeholder="MM/AA" pattern="(0[1-9]|1[0-2])\/\d{2}" required />
+
+        <label for="cvv">CVV</label>
+        <input type="text" id="cvv" name="cvv" maxlength="3" inputmode="numeric" required />
+
+        <button type="submit" class="back-perfil-button">Finalizar Compra</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+  </footer>
+
+  <!-- Scripts padrão -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../scripts/main.js"></script>
+  <script src="../scripts/header.js"></script>
+  <script src="../scripts/sidebar.js"></script>
+  <script src="../scripts/footer.js"></script>
+  <script src="../scripts/checkout.js"></script>
+
+</body>
+</html>

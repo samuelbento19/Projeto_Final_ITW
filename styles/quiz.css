@@ -1,0 +1,64 @@
+/* Container da pergunta */
+.js-pergunta-section {
+  background-color: #f9f8f5;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 25px 30px;
+  margin: 20px auto;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  transition: transform 0.15s ease, background-color 0.3s ease;
+  cursor: default;
+}
+
+/* Efeito hover na section */
+.js-pergunta-section:hover {
+  background-color: #f1f1f1;
+  transform: scale(1.02);
+}
+
+/* Texto da pergunta */
+.js-pergunta-section .pergunta {
+  font-weight: 600;
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+}
+
+/* Botões das opções */
+.js-pergunta-section .option {
+  background-color: white;
+  border: 2px solid #ffe259;
+  border-radius: 12px;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.15s ease;
+  user-select: none;
+  box-shadow: 0 4px 10px rgba(255, 167, 81, 0.4);
+}
+
+/* Hover nos botões */
+.js-pergunta-section .option:hover:not(:disabled) {
+  background-color: #ffe259;
+  color: rgb(0, 0, 0);
+  transform: scale(1.05);
+}
+
+/* Botões desativados (após resposta) */
+.js-pergunta-section .option:disabled {
+  cursor: default;
+  opacity: 0.7;
+}
+
+/* Estilos para o resultado */
+.js-pergunta-section .result {
+  font-weight: 600;
+  font-size: 16px;
+  height: 24px; /* espaço reservado */
+  color: #555;
+  margin-top: 5px;
+}
