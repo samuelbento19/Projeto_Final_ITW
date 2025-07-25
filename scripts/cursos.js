@@ -12,8 +12,8 @@ import { cart, updateCartQuantity, addToCart, removeFromCart } from "../data/car
   <section class="curso-info-section">
     <img src="../images/${cursoItem.id}.jpg">
     <div class="curso-info">
-      <h2>${cursoItem.nome}</h2>
-      <p>${cursoItem.descricao}</p>
+      <h2 class = "js-nome-curso">${cursoItem.nome}</h2>
+      <p class = "js-descricao-curso">${cursoItem.descricao}</p>
       <div class="curso-info-resume">
         <div class="indicador">
           <img src="../icons/schedule_33dp_000000_FILL0_wght400_GRAD0_opsz40.png">
@@ -35,7 +35,7 @@ import { cart, updateCartQuantity, addToCart, removeFromCart } from "../data/car
 
       <div class="see-more-container">
         <button class="add-button see-more" data-curso-id="${cursoItem.id}">Adicionar</button>
-        <button class="see-more"><a href="../html/curso-dw.html">Ver mais...</a></button>
+        <button class="see-more"><a href="../html/curso-${cursoItem.ref}.html">Ver mais...</a></button>
       </div>
     </div>
   </section>

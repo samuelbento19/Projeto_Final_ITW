@@ -40,8 +40,24 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
+.search-result {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100vw; /* ocupa toda a largura da tela */
+  margin-left: calc(-50vw + 50%); /* centraliza com base na viewport */
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  z-index: 199;
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+  border-radius: 5px;
+}
 
 
 .search-bar{

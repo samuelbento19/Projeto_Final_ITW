@@ -50,6 +50,7 @@ function renderHeader() {
     <div class="middle-section">
       <input class="search-bar" type="text" placeholder="Pesquise...">
       <button class="search-button"><img src="../icons/search_33dp_000000_FILL0_wght400_GRAD0_opsz40.png" alt="Pesquisar"></button>
+      <div class="search-result"></div>
     </div>
 
     <div class="right-section"> 
@@ -78,4 +79,5 @@ function renderHeader() {
 }
 
 renderHeader();
+
 

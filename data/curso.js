@@ -5,7 +5,8 @@ export const curso = [
           descricao: 'Domine as tecnologias essenciais para construir websites dinâmicos e interativos. Aprenda HTML, CSS, JavaScript e frameworks modernos para criar experiências online envolventes.',
           horas: 150,
           nivel: 'Intermédio',
-          preco: 1699
+          preco: 1699,
+          ref: 'dw'
         },
         {
           id: '1000-02',
@@ -13,7 +14,8 @@ export const curso = [
           descricao: 'Liberte a sua criatividade e aprenda a comunicar visualmente através de ferramentas e técnicas de design. Crie logotipos impactantes, layouts atraentes e identidades visuais memoráveis.',
           horas: 80,
           nivel: 'Iniciante',
-          preco: 899
+          preco: 899,
+          ref: 'dg'
         },
          {
           id: '1000-03',
@@ -21,7 +23,8 @@ export const curso = [
           descricao: 'Explore o fascinante mundo da Inteligência Artificial e descubra como criar sistemas inteligentes capazes de aprender, raciocinar e resolver problemas complexos.',
           horas: 180,
           nivel: 'Intermédio',
-          preco: 1999
+          preco: 1999,
+          ref: 'ia'
         },
          {
           id: '1000-04',
@@ -29,7 +32,8 @@ export const curso = [
           descricao: 'Mergulhe no universo da programação orientada a objetos com Java, uma linguagem robusta e amplamente utilizada no desenvolvimento de aplicações empresariais e Android.',
           horas: 150,
           nivel: 'Intermédio',
-          preco: 1799
+          preco: 1799,
+          ref: 'java'
         },
          {
           id: '1000-05',
@@ -37,7 +41,9 @@ export const curso = [
           descricao: 'Descubra a versatilidade e o poder da linguagem Python, ideal para desenvolvimento web, análise de dados, inteligência artificial e automação de tarefas.',
           horas: 120,
           nivel: 'Iniciante',
-          preco: 1299
+          preco: 1299,
+          ref: 'phyton'
+
         },
          {
           id: '1000-06',
@@ -45,7 +51,8 @@ export const curso = [
           descricao: 'Aprenda a programar em C++, uma linguagem de alto desempenho essencial para o desenvolvimento de software de sistemas, jogos e aplicações que exigem controlo total sobre o hardware.',
           horas: 200,
           nivel: 'Experiente',
-          preco: 2499
+          preco: 2499,
+          ref: 'c'
         },
          {
           id: '1000-07',
@@ -53,7 +60,8 @@ export const curso = [
           descricao: 'Compreenda a arquitetura, a gestão e a segurança de redes de computadores e sistemas informáticos, tornando-se um profissional essencial na infraestrutura tecnológica.',
           horas: 220,
           nivel: 'Experiente',
-          preco: 2799
+          preco: 2799,
+          ref: 'redes'
         },
          {
           id: '1000-08',
@@ -61,6 +69,7 @@ export const curso = [
           descricao: 'Adquira as competências necessárias para projetar, implementar e gerir bases de dados eficientes e seguras, cruciais para a organização e análise de informação.',
           horas: 110,
           nivel: 'Intermédio',
-          preco: 1399
+          preco: 1399,
+          ref: 'bd'
         }
       ]

@@ -1,4 +1,5 @@
 
+
 .perfil-info-section {
   display: flex;
   flex-direction: row;
@@ -67,5 +68,15 @@
   max-width: 600px;
   border-radius: 8px;
   outline: none;
+}
+
+.dia-semana-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dia-semana span{
+  font-weight: bold;
 }
 

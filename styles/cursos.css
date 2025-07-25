@@ -1,3 +1,33 @@
+.pesquisar-cursos-section {
+  width: 100%;
+  max-width: 1000px;
+  margin: 40px auto 30px auto;
+  padding: 20px;
+  background-color: #f9f8f5;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; 
+}
+
+.input-pesquisa-cursos {
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f9f8f5;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  transition: all 0.3s;
+  font-family: 'Montserrat';
+  box-sizing: border-box;
+}
+
+.input-pesquisa-cursos:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+
 .curso-info-section {
   display: flex;
   flex-direction: row;

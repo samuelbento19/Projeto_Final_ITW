@@ -24,7 +24,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="../scripts/main.js"></script>
- 
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pt-br.js"></script>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,8 +64,11 @@
   </nav>
 
 
-  <main>
+  <main class = "main-perfil">
      <h1 class="grid-title">O meu perfil</h1>
+
+     <div class="dia-semana-container"><p class = "dia-semana"></p></div>
+     
     <a href="../html/informacoes-pessoais.html">
       <section class = "perfil-info-section">
         <div class = "perfil-info-title">
@@ -151,50 +155,15 @@
     </section>
   </main>
   <footer class="site-footer">
-      <div class="footer-content">
-        <div class="footer-section">
-          <h3>SkillForge</h3>
-          <p>Aprende ao teu ritmo, com apoio especializado e cursos certificados.</p>
-        </div>
-        <div class="footer-section">
-          <h4>Cursos</h4>
-          <ul>
-            <li><a href="../html/curso-java.html">Programação em Java</a></li>
-            <li><a href="../html/curso-dg.html">Design Gráfico</a></li>
-            <li><a href="../html/curso-bd.html">Base de Dados</a></li>
-            <li><a href="../html/cursos.html">Ver mais...</a></li>
-          </ul>
-        </div>
-        <div class="footer-section">
-          <h4>Redes Sociais</h4>
-          <div class = "footer-img-section"> 
-            <a href="https://www.facebook.com/seuusuario" target="_blank"><i class="fab fa-facebook-f"></i></a><br>
-            <a href="https://www.instagram.com/seuusuario" target="_blank"><i class="fab fa-instagram"></i></a><br>
-            <a href="https://www.linkedin.com/in/seuusuario" target="_blank"><i class="fab fa-linkedin-in"></i></a><br>
-            <a href="https://www.youtube.com/RicFazeres" target="_blank"><i class="fab fa-youtube"></i></a><br>
-          </div>
-        </div>
-        <div class="footer-section">
-          <h4>Contacto</h4>
-          <p>Email: contacto@skillforge.pt</p>
-          <p>Telefone: +351 912 345 678</p>
-        </div>
-        <div class="footer-section">
-          <h4>Links Úteis</h4>
-          <ul>
-            <li><a href="../html/definicoes.html">Definições</a></li>
-            <li><a href="../html/termos-condicoes.html">Termos e Condições</a></li>
-            <li><a href="../html/politica-privacidade.html">Política de Privacidade</a></li>
-            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc4yf0yNzzkTWSLmpk4seLeuc8CDktNpkTVSdmG-rikPGZZvg/viewform?usp=dialog" target="_blank">Questionário</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        &copy; 2025 SkillForge. Todos os direitos reservados.
-      </div>
-    </footer>
+      
+  </footer>
 
     <script src="../scripts/header.js"></script>
     <script src="../scripts/sidebar.js"></script>
+    <script type = "module" src="../scripts/perfil.js"></script>
+    <script src="../scripts/utils/date.js"></script>
+    <script src="../scripts/footer.js"></script>
+    <script type = "module" src="../scripts/header/pesquisaPaginas.js"></script>
+
 </body>
 </html>
