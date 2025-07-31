@@ -1,0 +1,70 @@
+.main-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.login-section, .register-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.js-login, .js-register{
+  background-color:#f9f8f5;
+  padding: 30px;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 30px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.js-login p, .js-register p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.js-login input, .js-register input{
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  padding: 10px;
+  width: 300px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  transition: border-color 0.3s;
+  min-width: 180px;
+}
+
+.js-login input:focus, .js-register:focus {
+  outline: none;
+  border-color: #f7c31b;
+  box-shadow: 0 0 5px #f7c31b;
+}
+
+.js-login button, .js-register button, .back-index-button {
+  background-color: #f7c31b;
+  border-radius: 30px;
+  border: none;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  padding: 15px 25px;
+  cursor: pointer;
+   transition: all 0.3s ease;
+}
+
+.js-login button:hover, .js-register button:hover, .back-index-button:hover{
+  background-color: black;
+  color: #f7c31b;
+}
+
+.back-index-button{
+  margin: 20px;
+}

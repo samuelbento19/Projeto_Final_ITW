@@ -60,7 +60,7 @@ function renderHeader() {
           <ul>
             <a href="../html/perfil.html" class="popup-link">Perfil</a>
             <a href="../html/definicoes.html" class="popup-link">Definições</a>
-            <a href="../html/index.html" class="popup-link">Sair</a>
+            <a href="../html/index-login.html" class="popup-link">Sair</a>
           </ul>
         </div>
       </div>

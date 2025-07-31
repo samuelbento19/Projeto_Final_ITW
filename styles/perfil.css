@@ -80,3 +80,23 @@
   font-weight: bold;
 }
 
+.perfil-nome-container {
+  max-width: 1000px;
+  margin: 20px auto 40px auto;
+  padding: 20px 30px;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  user-select: none;
+}
+
+.perfil-nome-container p {
+  margin: 0;
+}
+
+.perfil-nome-container span {
+  color: #d1c520; /* cor para destacar o nome */
+  font-weight: 700;
+}
